@@ -26,7 +26,6 @@ const App = () => {
       <div className='flex items-start '>
         <Sidebar /> 
         <Routes>
-
           <Route path="/" element={<HomeRedirect />} />
           {/* Admin Routes */}
           <Route  path='/' element={<Dashboard />} />
